@@ -9,7 +9,7 @@ import akka.actor.UntypedActor;
 
 public class Monitor extends UntypedActor{
 	
-	List<ActorRef> watchedActors = new ArrayList<>();
+	List<ActorRef> watchedActors = new ArrayList<ActorRef>();
 	
 	public Monitor() {
 		
